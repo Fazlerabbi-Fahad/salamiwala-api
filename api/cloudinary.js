@@ -11,9 +11,9 @@ cloudinary.config({
 const storage = new CloudinaryStorage({
   cloudinary,
   params: {
-    folder: 'salamiwala/qr-codes',
+    folder:          'salamiwala/qr-codes',
     allowed_formats: ['jpg', 'jpeg', 'png', 'webp'],
-    transformation: [{ width: 400, height: 400, crop: 'limit', quality: 'auto' }],
+    transformation:  [{ width: 400, height: 400, crop: 'limit', quality: 'auto' }],
   },
 })
 
